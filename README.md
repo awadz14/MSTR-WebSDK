@@ -11,7 +11,7 @@ This repository contains standalone Java samples demonstrating how to implement 
 - **SessionManagement** - Create Intelligence Server session handling using the provided connection details. Includes close sessdion method as well.
 - **ShortcutsFolderBrowsing** - Helper class that loop through a specified folder of shortcut objects. the CreateObjectPrompt class uses the browseShortcutsFolder method to  find the the target object(s) and add it/them to the Objects list of the object prompt.
 
-To Run:
+### To Run:
 1- Import the classes to your MicroStrategy Web Project in Eclipse (or your favorite IDE)
 2- Make sure classes are "included" in the Build Configuration
-3- Edit the Java Run Configuration and specify the Run Arguments as follows: "Intelligence_Server" "project" "username" "pwd" "shortcutsFolderID" "containerFolderID"
+3- Edit the Java Run Configuration and specify the Run Arguments as follows: *"Intelligence_Server" "project" "username" "pwd" "shortcutsFolderID" "containerFolderID"
