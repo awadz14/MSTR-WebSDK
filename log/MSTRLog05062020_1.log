@@ -1,0 +1,43 @@
+<record reset="true">
+  <package>com.microstrategy.webapi</package>
+  <level>SEVERE</level>
+  <miliseconds>1588821929737</miliseconds>
+  <timestamp>05/06/2020 23:25:29:742</timestamp>
+  <thread>0</thread>
+  <class>CDSSXMLAdmin</class>
+  <method>GetHostAddr</method>
+  <message>Incorrect server name.</message>
+  <exception>java.net.UnknownHostException: 10.27.72.722&#x0A;&#x09;at java.net.InetAddress.getAllByName0(InetAddress.java:1281)&#x0A;&#x09;at java.net.InetAddress.getAllByName(InetAddress.java:1193)&#x0A;&#x09;at java.net.InetAddress.getAllByName(InetAddress.java:1127)&#x0A;&#x09;at java.net.InetAddress.getByName(InetAddress.java:1077)&#x0A;&#x09;at com.microstrategy.webapi.CDSSXMLAdmin.getHostAddr(Unknown Source)&#x0A;&#x09;at com.microstrategy.webapi.CDSSXMLAdmin.AddDSSXMLClusterNode(Unknown Source)&#x0A;&#x09;at com.microstrategy.webapi.CDSSXMLAdmin.InitConnection(Unknown Source)&#x0A;&#x09;at com.microstrategy.webapi.CDSSXMLAdmin.Connect(Unknown Source)&#x0A;&#x09;at com.microstrategy.utils.WebTools.checkConnection(Unknown Source)&#x0A;&#x09;at com.microstrategy.web.objects.WebIServerSessionImpl.initAuthInfo(Unknown Source)&#x0A;&#x09;at com.microstrategy.web.objects.WebIServerSessionImpl.createNewSessionID(Unknown Source)&#x0A;&#x09;at com.microstrategy.web.objects.WebSessionInfoImpl.getSessionID(Unknown Source)&#x0A;&#x09;at sdk.mstr.object.SessionManagement.getSession(SessionManagement.java:57)&#x0A;&#x09;at sdk.mstr.object.CreateSearchObject.main(CreateSearchObject.java:70)&#x0A;</exception>
+</record>
+<record reset="true">
+  <package>sdk.mstr.object</package>
+  <level>SEVERE</level>
+  <miliseconds>1588822506967</miliseconds>
+  <timestamp>05/06/2020 23:35:06:987</timestamp>
+  <thread>0</thread>
+  <class>CreateSearchObject</class>
+  <method>main method</method>
+  <message>Entering my custom function</message>
+</record>
+<record>
+  <package>com.microstrategy.webapi</package>
+  <level>SEVERE</level>
+  <miliseconds>1588822507456</miliseconds>
+  <timestamp>05/06/2020 23:35:07:456</timestamp>
+  <thread>0</thread>
+  <class>CDSSXMLAdmin</class>
+  <method>GetHostAddr</method>
+  <message>Incorrect server name.</message>
+  <exception>java.net.UnknownHostException: 10.27.72.722&#x0A;&#x09;at java.net.InetAddress.getAllByName0(InetAddress.java:1281)&#x0A;&#x09;at java.net.InetAddress.getAllByName(InetAddress.java:1193)&#x0A;&#x09;at java.net.InetAddress.getAllByName(InetAddress.java:1127)&#x0A;&#x09;at java.net.InetAddress.getByName(InetAddress.java:1077)&#x0A;&#x09;at com.microstrategy.webapi.CDSSXMLAdmin.getHostAddr(Unknown Source)&#x0A;&#x09;at com.microstrategy.webapi.CDSSXMLAdmin.AddDSSXMLClusterNode(Unknown Source)&#x0A;&#x09;at com.microstrategy.webapi.CDSSXMLAdmin.InitConnection(Unknown Source)&#x0A;&#x09;at com.microstrategy.webapi.CDSSXMLAdmin.Connect(Unknown Source)&#x0A;&#x09;at com.microstrategy.utils.WebTools.checkConnection(Unknown Source)&#x0A;&#x09;at com.microstrategy.web.objects.WebIServerSessionImpl.initAuthInfo(Unknown Source)&#x0A;&#x09;at com.microstrategy.web.objects.WebIServerSessionImpl.createNewSessionID(Unknown Source)&#x0A;&#x09;at com.microstrategy.web.objects.WebSessionInfoImpl.getSessionID(Unknown Source)&#x0A;&#x09;at sdk.mstr.object.SessionManagement.getSession(SessionManagement.java:57)&#x0A;&#x09;at sdk.mstr.object.CreateSearchObject.main(CreateSearchObject.java:73)&#x0A;</exception>
+</record>
+<record reset="true">
+  <package>com.microstrategy.webapi</package>
+  <level>SEVERE</level>
+  <miliseconds>1588822981176</miliseconds>
+  <timestamp>05/06/2020 23:43:01:179</timestamp>
+  <thread>0</thread>
+  <class>CDSSXMLAdmin</class>
+  <method>GetHostAddr</method>
+  <message>Incorrect server name.</message>
+  <exception>java.net.UnknownHostException: 10.27.72.722&#x0A;&#x09;at java.net.InetAddress.getAllByName0(InetAddress.java:1281)&#x0A;&#x09;at java.net.InetAddress.getAllByName(InetAddress.java:1193)&#x0A;&#x09;at java.net.InetAddress.getAllByName(InetAddress.java:1127)&#x0A;&#x09;at java.net.InetAddress.getByName(InetAddress.java:1077)&#x0A;&#x09;at com.microstrategy.webapi.CDSSXMLAdmin.getHostAddr(Unknown Source)&#x0A;&#x09;at com.microstrategy.webapi.CDSSXMLAdmin.AddDSSXMLClusterNode(Unknown Source)&#x0A;&#x09;at com.microstrategy.webapi.CDSSXMLAdmin.InitConnection(Unknown Source)&#x0A;&#x09;at com.microstrategy.webapi.CDSSXMLAdmin.Connect(Unknown Source)&#x0A;&#x09;at com.microstrategy.utils.WebTools.checkConnection(Unknown Source)&#x0A;&#x09;at com.microstrategy.web.objects.WebIServerSessionImpl.initAuthInfo(Unknown Source)&#x0A;&#x09;at com.microstrategy.web.objects.WebIServerSessionImpl.createNewSessionID(Unknown Source)&#x0A;&#x09;at com.microstrategy.web.objects.WebSessionInfoImpl.getSessionID(Unknown Source)&#x0A;&#x09;at sdk.mstr.object.SessionManagement.getSession(SessionManagement.java:57)&#x0A;&#x09;at sdk.mstr.object.CreateSearchObject.main(CreateSearchObject.java:65)&#x0A;</exception>
+</record>

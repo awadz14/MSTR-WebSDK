@@ -15,6 +15,7 @@ package sdk.mstr.object;
 
 
 import com.microstrategy.web.objects.WebObjectsFactory;
+import com.microstrategy.utils.log.Level;
 import com.microstrategy.web.objects.WebIServerSession;
 import com.microstrategy.web.objects.WebObjectsException;
 
@@ -55,7 +56,9 @@ public class SessionManagement {
             try {
                 System.out.println("\nSession created with ID: " + serverSession.getSessionID());
             } catch (WebObjectsException ex) {
+  	            CustomLog.logger.logp(Level.WARNING, "SessionManagement", "getSession", ex.getMessage());
                 handleError(null, "Error creating session:" + ex.getMessage());
+
             }
         }
         //Return session
